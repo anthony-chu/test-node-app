@@ -1,3 +1,9 @@
 {
-  "id": "mynodeapp"
+  "id": "mynodeapp",
+  "loadBalancer": {
+    "targetPort": 3000,
+    "cdn": false,
+    "defaultBackend": true
+  },
+  "kind": "Deployment"  
 }
