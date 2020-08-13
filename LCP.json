@@ -5,5 +5,8 @@
     "cdn": false,
     "defaultBackend": true
   },
-  "kind": "Deployment"  
+  "kind": "Deployment",
+  "volumes": {
+    "datadir": "/var/test"
+  }
 }
